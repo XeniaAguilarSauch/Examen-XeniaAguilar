@@ -208,8 +208,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 155522884}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.78557223, z: 0, w: 0.61876994}
-  m_LocalPosition: {x: 8.96, y: 0.70386124, z: 0.16}
+  m_LocalRotation: {x: 0.19052283, y: -0.0035698456, z: 0.00069283246, w: 0.98167604}
+  m_LocalPosition: {x: 0.25, y: 1.8499999, z: -2.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -786,6 +786,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 8.83, y: 3.57, z: 5.07}
   m_Center: {x: -1.37, y: 0.26, z: 1.26}
+--- !u!114 &786570641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786570638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f47d9170360e483aae5d49dbed7e811, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VCamDisable: {fileID: 1117934176}
+  VCamEnable: {fileID: 1310143799}
+  UI: {fileID: 1653943454}
 --- !u!1 &1117934174
 GameObject:
   m_ObjectHideFlags: 0
@@ -1817,6 +1832,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7999263344431389608, guid: bc86fe3cb901bb34695366e09bb8047c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 786570640}
+    - targetCorrespondingSourceObject: {fileID: 7999263344431389608, guid: bc86fe3cb901bb34695366e09bb8047c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786570641}
   m_SourcePrefab: {fileID: 100100000, guid: bc86fe3cb901bb34695366e09bb8047c, type: 3}
 --- !u!1001 &4791283785960537822
 PrefabInstance:
